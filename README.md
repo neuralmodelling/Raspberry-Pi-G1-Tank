@@ -1,4 +1,3 @@
-Welcome to the Raspberry-Pi-G1-Tank wiki!
 # Raspberry-Pi-G1-Tank
 ![](http://r.photo.store.qq.com/psb?/V12aIGgQ3D78BF/0cBebnzPAQ1A0dtu3Tnl6YnLy0It6h6gjXe3y*UlvfM!/r/dDUBAAAAAAAA)
 # Introduction
