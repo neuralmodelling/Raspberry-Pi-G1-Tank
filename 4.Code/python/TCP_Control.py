@@ -623,8 +623,8 @@ try:
 
     tcpservicesock= socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     tcpservicesock.setblocking(0)
-
-    tcpservicesock.bind(('192.168.50.1', 8888))
+	# Input your IP address in here
+    tcpservicesock.bind(('192.168.50.1', 8888))  
 
     tcpservicesock.listen(5)
     print "waiting for connection...."
@@ -637,7 +637,7 @@ try:
     while True:
         try:
            
-            print "Start accept!"
+            #print "Start accept!"
             tcpclientsock,addr = tcpservicesock.accept()
             if  tcpclientsock:
                 connectflag = 1
